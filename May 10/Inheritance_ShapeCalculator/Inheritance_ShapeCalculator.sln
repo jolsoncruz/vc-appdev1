@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33403.129
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance_ShapeCalculator", "Inheritance_ShapeCalculator\Inheritance_ShapeCalculator.csproj", "{80DF8D2F-A33A-48CE-9883-76FED20914F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80DF8D2F-A33A-48CE-9883-76FED20914F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80DF8D2F-A33A-48CE-9883-76FED20914F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80DF8D2F-A33A-48CE-9883-76FED20914F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80DF8D2F-A33A-48CE-9883-76FED20914F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {565B5A6B-6508-48F6-A674-E7D7C9790396}
+	EndGlobalSection
+EndGlobal
