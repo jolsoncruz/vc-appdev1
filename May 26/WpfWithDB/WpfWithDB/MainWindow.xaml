@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfWithDB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfWithDB"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas Height="NaN" Margin="0,0,0,365" Background="#FF75ABA5">
+            <TextBox Canvas.Left="554" TextWrapping="Wrap" Text="Insert ID" Canvas.Top="26" Width="120" TextChanged="TextBox_TextChanged"/>
+            <Button Content="Search" Canvas.Left="692" Canvas.Top="26" HorizontalAlignment="Left" Height="18" VerticalAlignment="Center" Width="81" RenderTransformOrigin="0.516,0.533"/>
+            <Label Content="Vanier Cohort 11 Students DB" Canvas.Left="35" Canvas.Top="22" HorizontalAlignment="Left" VerticalAlignment="Center" Width="272"/>
+        </Canvas>
+        <TextBox HorizontalAlignment="Left" Margin="38,96,0,0" TextWrapping="Wrap" Text="Insert ID" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Margin="38,135,0,0" TextWrapping="Wrap" Text="Insert L. Name" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="38,173,0,0" TextWrapping="Wrap" Text="Insert F. Name" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="38,0,0,0" TextWrapping="Wrap" Text="Insert Email" VerticalAlignment="Center" Width="120"/>
+
+    </Grid>
+</Window>
