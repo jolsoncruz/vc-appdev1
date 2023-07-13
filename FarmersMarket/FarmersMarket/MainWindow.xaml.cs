@@ -24,5 +24,17 @@ namespace FarmersMarket
         {
             InitializeComponent();
         }
+
+        private void btn_Admin_Click(object sender, RoutedEventArgs e)
+        {
+            Admin adminView = new Admin();
+            adminView.Show();
+        }
+
+        private void btn_Customer_Click(object sender, RoutedEventArgs e)
+        {
+            Sales userView = new Sales();
+            userView.Show();
+        }
     }
 }

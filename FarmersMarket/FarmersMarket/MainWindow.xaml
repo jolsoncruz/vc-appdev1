@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="470" Width="800">
     <Grid>
+        <Label x:Name="lbl_Main" Content="🧺 Farmers' Market" HorizontalAlignment="Center" Margin="0,114,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="btn_Admin" Content="Admin" HorizontalAlignment="Center" Margin="0,177,0,0" VerticalAlignment="Top" Height="33" Width="108" Click="btn_Admin_Click"/>
+        <Button x:Name="btn_Customer" Content="Customer" HorizontalAlignment="Center" Margin="0,227,0,0" VerticalAlignment="Top" Height="33" Width="108" Click="btn_Customer_Click"/>
 
     </Grid>
 </Window>
